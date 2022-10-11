@@ -61,15 +61,30 @@
         </p>
         <h2 class="main">HotKeys</h2>
         <p class="main">
-         <span>
+         
             B = Open Item Shop (Scroll to find items) <br>
             F = Switch Weapons (Sword / Ax) <br>
             U = Dismount Ride <br>
             T = Open Teams Menu <br>
             H = Open Hats Menu <br>
             P = Open Diamond Shop <br>
-         </span>
-        </p>
+ </p>
+         <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <h2 class="main">HotKeys</h2>
+        <p class="main">
+         
+            B = Open Item Shop (Scroll to find items) <br>
+            F = Switch Weapons (Sword / Ax) <br>
+            U = Dismount Ride <br>
+            T = Open Teams Menu <br>
+            H = Open Hats Menu <br>
+            P = Open Diamond Shop <br>
+ </p>
+  </div>
+</div>
+        
         <h2 class="main">Commands:</h2>
         <p class="main">
             /s (+message) = Talks in Public Server Chat (Available for only logged in users) <br>
@@ -88,7 +103,66 @@
         <br>
         <iframe class="videooo" width="560" height="315" src="https://www.youtube.com/embed/9NPYFj3hTKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  </body>
- <style>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<style>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.show {display:block;}
+</style>
+
+
+<style>
     
 nav.menu
 {
