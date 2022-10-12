@@ -102,4 +102,20 @@ nav.menu
     font-size: 20px;
     font-family: Montserrat;
     }   
-    
+    .copy_right_footer{
+        font-size: 20px;
+        color:navy;
+        font-weight:bold;
+        margin-top: 350px;
+        text-align: center;
+    }
+
+    .bottom
+    {
+        font-size: 10px;
+        float: right;
+    }
+    h2, h5
+    {
+    text-align: center;
+    }
