@@ -1,0 +1,34 @@
+<html>
+    <link rel="stylesheet" href="style.css" />    
+<head>
+        <meta charset="utf-8">
+        <title>Change Logs 9/6/2021 </title>
+      </head>
+      <body background="Capture.PNG">
+        <header>        
+            <nav class="menu">
+            <ul>
+            <li><a href="https://glar.io/">Play Glar.io</a></li>
+            <li><a href="https://discord.gg/yNvekukmVk">Join our Discord Server</a></li>
+            <li><a href="./hats.html">Hat Tutorial</li></a>
+            <li><a href="changlogs.html">Change Logs</li></a>
+            </ul>
+            </nav>
+            </header>
+             <h1 class="main">Change Logs 9/6/2021</h1> 
+                <h5> 
+                    <h2>Additions:</h2>
+                   Logged in users start with bonus resources to help get started.<br>
+                    Rideable Bear re-released; slower but higher defense and attack.<br>
+                Dragon slowed down a bit <br>
+                 Mounts: Bear: Defense+Attack, Dragon: Balance, Wolf: Speed (fastest in game)<br>
+                Ice hat texture much improved<br>
+            Extreme server map fixed<br>
+            <i> Page is still heavily in development, don't mind mistakes</i>
+               
+      </body>
+      
+             
+             
+      </body>
+</html>
