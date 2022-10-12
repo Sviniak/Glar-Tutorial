@@ -1,4 +1,4 @@
-nav.menu
+  nav.menu
 {
         margin-bottom: 20px;
         padding-top: 15px;
@@ -71,7 +71,7 @@ nav.menu
         {
             position: center;
             text-align: center;
-            font-family: cursive;
+            font-family: Montserrat;
             color: white;
         }
         .videooo
@@ -101,5 +101,4 @@ nav.menu
     {
     font-size: 20px;
     font-family: Montserrat;
-    }   
-    
+    }  
